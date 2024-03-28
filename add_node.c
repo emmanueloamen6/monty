@@ -13,6 +13,7 @@ void addnode(stack_t **head, int n)
 		printf("Error\n");
 		exit(0);
 	}
+	h = *head;
 	if (h)
 	{
 		h->prev = new_node;
